@@ -6,7 +6,6 @@ from sqlalchemy.dialects.postgresql import insert
 from database import SessionLocal
 from models.customer import Customer
 
-
 MOCK_SERVER_URL = "http://mock-server:5000/api/customers"
 
 
